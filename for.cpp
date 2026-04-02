@@ -163,3 +163,13 @@
 // }
 
 
+#include<iostream>
+using namespace std;
+int main(){
+    int num1,num2,result;
+    cout<<"enter the numbers:"<<endl;
+    cin>>num1>>num2;
+     // divide two integer numbers and print the result as an integer
+     result=num1/num2;
+    cout<<"result is:"<<int(result)<<endl;   
+}
